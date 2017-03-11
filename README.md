@@ -4,7 +4,7 @@ A simple Sudoku Solver based on backtracking and brute force.
 Approach:
 --------
 I am using a simple backtracking algorithm to brute force the solution of 
-the grid, the main steps are:
+the grid through trial and error techqniue, the main steps are:
 
 1- Check if the grid has an empty cell.
 
@@ -41,5 +41,4 @@ the grid, the main steps are:
     
     ------------------------------------------------------------------------
     Next steps: 
-    -----------
     I may try to optimize this algorithm if needed.
