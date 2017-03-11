@@ -10,15 +10,16 @@ the grid through trial and error techqniue, the main steps are:
 
 2- If there is an empty cell then we are not done yet, so try every 
    possible number that can fill that cell starting from 1 all the way to 9 
-   in each iteration, I put the value in the empty cell I have identified, 
+   in each iteration, I put the value in the empty cell I have identified 
    earlier, then I recursively call the function with the new gird 
    i.e."the old grid+ the recently added value", the function continues 
    and ends up with one of either possibilities:
+   ------------------------------------------------------------------------------
      A) The added value fits in and a solution is found
      B) The value doesn't fit, i.e. makes it not feasible to complete 
 	    solving the gird, so I unmark "undo" or "remove" the added value, 
 		and try another one.
-
+   -------------------------------------------------------------------------------
 3- Continue to do step 2 until I either don't find a solution or 
    no solution at all.
 
