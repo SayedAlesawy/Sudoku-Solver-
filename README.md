@@ -32,13 +32,12 @@ the grid through trial and error techqniue, the main steps are:
 	  solve a normal 9X9 grid even for the most evil configurations, so I
 	  didn't feel the need to add any optimizations.
     
-    -----------------------------------------------------------------------
     How to use:
     -----------
     Simply type in the grid in input.txt keeping the specified format:
     1- numbers are seperated by spaces.
     2- zero denotes empty cells.
     
-    ------------------------------------------------------------------------
     Next steps: 
-    I may try to optimize this algorithm if needed.
+    -----------
+    I may try to optimize this algorithm to run faster if needed.
